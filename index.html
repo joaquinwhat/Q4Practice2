@@ -18,21 +18,25 @@
 
             switch(true) {
                 case (rank === "1st"):
-                    alert("Champion!");
+                    message = "Champion!";
                     break;
                 case (rank === "2nd"):
-                    alert("Second googoogaga");
+                    message = "Second place!";
                     break;
                 case (rank === "3rd"):
-                    alert("3rd loool");
+                    message = "Third place!";
                     break;
                 case (rank === "4th"):
-                    alert("NT u 4th");
+                    message = "Fourth place!";
                     break;
                 default:
-                    alert("Rank could not be determined.");
+                    message = "Rank could not be determined.";
+
             }
+            alert(message);
         }
+
+
 
 
         let team = "Red";
