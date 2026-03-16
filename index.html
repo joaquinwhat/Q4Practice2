@@ -8,7 +8,33 @@
 <body>
     <h1>Switch Statement</h1>
 
+    <button class="btn btn-info" onclick="teamRank()">Rank</button>
+
+
     <script>
+
+        function teamRank() {
+            var rank = "1st";
+
+            switch(rank) {
+                case "1st":
+                    alert("Champion!");
+                    break;
+                case "2nd":
+                    alert("Second googoogaga");
+                    break;
+                case "3rd":
+                    alert("3rd loool");
+                    break;
+                case "4th":
+                    alert("NT u 4th");
+                    break;
+                default:
+                    alert("Rank could not be determined.");
+            }
+        }
+
+
         let team = "Red";
 
         switch(team) {
